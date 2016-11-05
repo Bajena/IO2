@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{69E93F3F-853F-4C09-ACD3-5D2AE43B2DBE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DllProject</RootNamespace>
+    <AssemblyName>DllProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UCCTaskSolver, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\lib\UCCTaskSolver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DVRPProblem.cs" />
+    <Compile Include="DVRPRequired\Client.cs" />
+    <Compile Include="DVRPRequired\Depot.cs" />
+    <Compile Include="DVRPRequired\DvrpFilesReader.cs" />
+    <Compile Include="DVRPRequired\Partitioning.cs" />
+    <Compile Include="DVRPRequired\Point.cs" />
+    <Compile Include="DVRPRequired\RecurentTspSolver.cs" />
+    <Compile Include="DVRPRequired\Route.cs" />
+    <Compile Include="DVRPRequired\Set.cs" />
+    <Compile Include="DVRPRequired\Vehicles.cs" />
+    <Compile Include="DvrpSolution.cs" />
+    <Compile Include="DvrpTaskSolver.cs" />
+    <Compile Include="Enumerations\EComponentType.cs" />
+    <Compile Include="Enumerations\EState.cs" />
+    <Compile Include="Enumerations\EType.cs" />
+    <Compile Include="Helpers\ListComparer.cs" />
+    <Compile Include="Helpers\MessageParser.cs" />
+    <Compile Include="Helpers\XmlValidator\XmlValidationResult.cs" />
+    <Compile Include="Helpers\XmlValidator\XmlValidator.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Models\Messages\DivideProblemMessage.cs" />
+    <Compile Include="Models\Messages\RegisterMessage.cs" />
+    <Compile Include="Models\Messages\RegisterResponseMessage.cs" />
+    <Compile Include="Models\Messages\SolutionRequestMessage.cs" />
+    <Compile Include="Models\Messages\SolutionsMessage.cs" />
+    <Compile Include="Models\Messages\SolvePartialProblemsMessage.cs" />
+    <Compile Include="Models\Messages\SolveRequestMessage.cs" />
+    <Compile Include="Models\Messages\SolveRequestResponseMessage.cs" />
+    <Compile Include="Models\Messages\StatusMessage.cs" />
+    <Compile Include="Models\PartialProblem.cs" />
+    <Compile Include="Models\Solution.cs" />
+    <Compile Include="Models\Thread.cs" />
+    <Compile Include="Problem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

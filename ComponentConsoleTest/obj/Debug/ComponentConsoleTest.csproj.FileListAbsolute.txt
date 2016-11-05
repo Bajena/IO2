@@ -1,0 +1,14 @@
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\ComponentConsoleTest.exe.config
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\ComponentConsoleTest.exe
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\ComponentConsoleTest.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\Common.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\Components.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\log4net.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\UCCTaskSolver.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\Common.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\Components.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\log4net.xml
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\obj\Debug\ComponentConsoleTest.csprojResolveAssemblyReference.cache
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\obj\Debug\ComponentConsoleTest.exe
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\obj\Debug\ComponentConsoleTest.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ComponentConsoleTest\bin\Debug\DvrpData\okulD.vrp

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{31B29842-A76E-4580-90EA-945DF0973E87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common</RootNamespace>
+    <AssemblyName>Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="XsdSchemas\DivideProblemMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XsdSchemas\RegisterMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XsdSchemas\RegisterResponseMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XsdSchemas\SolutionRequestMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XsdSchemas\SolutionsMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XsdSchemas\SolvePartialProblems.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XsdSchemas\SolveRequestMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XsdSchemas\SolveRequestResponseMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XsdSchemas\StatusMessage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstractions\Message.cs" />
+    <Compile Include="Helpers\ListComparer.cs" />
+    <Compile Include="Helpers\MessageParser.cs" />
+    <Compile Include="Logging\Log4NetAppender.cs" />
+    <Compile Include="Enumerations\EType.cs" />
+    <Compile Include="Enumerations\EState.cs" />
+    <Compile Include="Enumerations\EComponentType.cs" />
+    <Compile Include="Interfaces\IConnectable.cs" />
+    <Compile Include="Logging\EventLogger.cs" />
+    <Compile Include="Models\Messages\SolveRequestMessage.cs" />
+    <Compile Include="Models\Messages\SolutionsMessage.cs" />
+    <Compile Include="Models\Messages\SolvePartialProblemsMessage.cs" />
+    <Compile Include="Models\Messages\SolutionRequestMessage.cs" />
+    <Compile Include="Models\Messages\DivideProblemMessage.cs" />
+    <Compile Include="Models\Messages\SolveRequestResponseMessage.cs" />
+    <Compile Include="Models\Messages\StatusMessage.cs" />
+    <Compile Include="Models\Messages\RegisterMessage.cs" />
+    <Compile Include="Models\Messages\RegisterResponseMessage.cs" />
+    <Compile Include="Models\PartialProblem.cs" />
+    <Compile Include="Models\Solution.cs" />
+    <Compile Include="Models\Thread.cs" />
+    <Compile Include="Helpers\XmlValidator\XmlValidationResult.cs" />
+    <Compile Include="Helpers\XmlValidator\XmlValidator.cs" />
+    <Compile Include="Abstractions\Problem.cs" />
+    <Compile Include="Problems\MultiplyProblem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Solutions\MultiplySolution.cs" />
+    <Compile Include="Solvers\MultiplyTaskSolver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DllProject">
+      <HintPath>..\DllProject\bin\Debug\DllProject.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UCCTaskSolver">
+      <HintPath>..\packages\UCCTaskSolver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

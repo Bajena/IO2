@@ -1,0 +1,11 @@
+D:\NAUKA\PROJEKT- IO2\14-pl-11\src\14-pl-11\DllProject\bin\Debug\UCCTaskSolver.dll
+D:\NAUKA\PROJEKT- IO2\14-pl-11\src\14-pl-11\DllProject\bin\Debug\DllProject.dll
+D:\NAUKA\PROJEKT- IO2\14-pl-11\src\14-pl-11\DllProject\bin\Debug\DllProject.pdb
+D:\NAUKA\PROJEKT- IO2\14-pl-11\src\14-pl-11\DllProject\obj\Debug\DllProject.dll
+D:\NAUKA\PROJEKT- IO2\14-pl-11\src\14-pl-11\DllProject\obj\Debug\DllProject.pdb
+D:\NAUKA\PROJEKT- IO2\14-pl-11\src\14-pl-11\DllProject\obj\Debug\DllProject.csprojResolveAssemblyReference.cache
+C:\Users\Alek\Desktop\14-pl-11\src\14-pl-11\DllProject\bin\Debug\DllProject.dll
+C:\Users\Alek\Desktop\14-pl-11\src\14-pl-11\DllProject\bin\Debug\DllProject.pdb
+C:\Users\Alek\Desktop\14-pl-11\src\14-pl-11\DllProject\bin\Debug\UCCTaskSolver.dll
+C:\Users\Alek\Desktop\14-pl-11\src\14-pl-11\DllProject\obj\Debug\DllProject.dll
+C:\Users\Alek\Desktop\14-pl-11\src\14-pl-11\DllProject\obj\Debug\DllProject.pdb

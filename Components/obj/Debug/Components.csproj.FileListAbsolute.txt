@@ -1,0 +1,11 @@
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\bin\Debug\Components.dll.config
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\bin\Debug\Components.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\bin\Debug\Components.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\bin\Debug\Common.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\bin\Debug\log4net.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\bin\Debug\UCCTaskSolver.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\bin\Debug\Common.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\bin\Debug\log4net.xml
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\obj\Debug\Components.csprojResolveAssemblyReference.cache
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\obj\Debug\Components.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\Components\obj\Debug\Components.pdb

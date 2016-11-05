@@ -1,0 +1,13 @@
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\ServerConsoleTest.exe.config
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\ServerConsoleTest.exe
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\ServerConsoleTest.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\Common.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\Components.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\log4net.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\UCCTaskSolver.dll
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\Common.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\Components.pdb
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\bin\Debug\log4net.xml
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\obj\Debug\ServerConsoleTest.csprojResolveAssemblyReference.cache
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\obj\Debug\ServerConsoleTest.exe
+C:\Users\Janek\Desktop\Programowanie\IO2\src\14-pl-11\ServerConsoleTest\obj\Debug\ServerConsoleTest.pdb
